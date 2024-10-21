@@ -1,7 +1,7 @@
 FROM node:18-alpine AS build
 RUN apk add --no-cache git
 WORKDIR /app
-RUN git clone https://github.com/Chonlasak66/coreui-free-react.git .
+RUN git clone https://github.com/supalerk-ar66/frontend-coreui.git .
 RUN git pull
 RUN npm install --legacy-peer-deps
 RUN npm run build
