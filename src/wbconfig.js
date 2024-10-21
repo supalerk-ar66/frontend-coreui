@@ -9,7 +9,7 @@ const wbconfig = {
     },
     production: {
         hosturl  : 'https://localhost:8105/api',
-        wsurl    : 'wss://localhost:8505',
+        wsurl    : 'wss://localhost:8105',
         masterKey     : 'wallboardapi',
         clientKey     : 'wallboardapi',
         javascriptKey : 'wallboardapi',
